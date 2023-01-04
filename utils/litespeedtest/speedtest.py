@@ -21,9 +21,9 @@ def speedtest(subscription,output_range,other_config={'concurrency': -1, 'timeou
 
     confighandler(config) # Initialize configurations
     if os.name == 'posix':
-        args = ['./lite-linux-amd64', '--config', './config.json', '--test', 'Eternity']
+        args = ['./lite-linux-amd64', '--config', './config.json', '--test', 'base']
     elif os.name == 'nt':
-        args = ['.\lite-windows-amd64.exe', '--config', './config.json', '--test', 'Eternity']
+        args = ['.\lite-windows-amd64.exe', '--config', './config.json', '--test', 'base']
     litespeedtest = subprocess.Popen(args,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,universal_newlines=True,encoding='utf-8',bufsize=1)
 
     # Progress bar
@@ -107,7 +107,7 @@ def progressbar(current,range,desc,size=60):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Test nodes, and output base64 subscription file.')
-    parser.add_argument('--subscription', '-s', help='Subcription url or local file path', default='https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt')
+    parser.add_argument('--subscription', '-s', help='Subcription url or local file path', default='https://raw.githubusercontent.com/1904240502/node/master/sub/sub_merge_base64.txt')
     parser.add_argument('--range', '-r', help='Target proxies range to output', default="99")
     parser.add_argument('--path', '-p', help='Output file path', default='./output.txt')
     args = parser.parse_args()
