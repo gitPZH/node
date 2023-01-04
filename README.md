@@ -1,16 +1,16 @@
 # TopFreeProxies
-[![GitHub Workflow Status](https://github.com/alanbobs999/topfreeproxies/actions/workflows/get-proxies.yml/badge.svg)](https://github.com/alanbobs999/TopFreeProxies/actions/workflows/get-proxies.yml) 
+[![GitHub Workflow Status](https://github.com/1904240502/node/actions/workflows/get-proxies.yml/badge.svg)](https://github.com/1904240502/node/actions/workflows/get-proxies.yml) 
 
-![Watchers](https://img.shields.io/github/watchers/alanbobs999/topfreeproxies) ![Stars](https://img.shields.io/github/stars/alanbobs999/topfreeproxies) ![Forks](https://img.shields.io/github/forks/alanbobs999/topfreeproxies) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=alanbobs999.topfreeproxies) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
+![Watchers](https://img.shields.io/github/watchers/1904240502/node) ![Stars](https://img.shields.io/github/stars/1904240502/node) ![Forks](https://img.shields.io/github/forks/1904240502/node) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=1904240502.node) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
 
-[仓库介绍](https://github.com/alanbobs999/TopFreeProxies#仓库介绍) | [使用方法](https://github.com/alanbobs999/TopFreeProxies#使用方法) | [节点信息](https://github.com/alanbobs999/TopFreeProxies#节点信息) | [软件推荐](https://github.com/alanbobs999/TopFreeProxies#客户端选择) | [机场推荐](https://github.com/alanbobs999/TopFreeProxies#机场推荐) | [仓库声明](https://github.com/alanbobs999/TopFreeProxies#仓库声明)
+[仓库介绍](https://github.com/1904240502/node#仓库介绍) | [使用方法](https://github.com/1904240502/node#使用方法) | [节点信息](https://github.com/1904240502/node#节点信息) | [软件推荐](https://github.com/1904240502/node#客户端选择) | [仓库声明](https://github.com/1904240502/node#仓库声明)
 
 ## 仓库介绍
 本仓库自动化功能全部基于 `GitHub Actions` 实现，如有需要可以自行 Fork 实现个性化需求，功能配置在 `./utils/config.ini` 配置文件中。
 
 对网络上各免费节点池及博主分享的节点进行测速筛选出较为稳定高速的节点，再导入到仓库中进行分享记录。所筛选的节点链接在仓库 `./sub/sub_list.json` 文件中，其中大部分为其他 `GitHub` 仓库链接，如果大家有好的订阅链接欢迎提交 PR ，这些链接包含的所有节点会合并在仓库 `./sub/sub_merge.txt` 中。
 
-测速筛选后的节点订阅文件在仓库根目录 `Eterniy`(Base64) 和 `Eternity.yaml`(Clash)。同时在仓库的 `./update` 中保留了原始节点链接的的记录。
+测速筛选后的节点订阅文件在仓库根目录 `base`(Base64) 和 `clash.yaml`(Clash)。同时在仓库的 `./update` 中保留了原始节点链接的的记录。
 
 订阅转换使用 [subconverter](https://github.com/tindy2013/subconverter) 实现，测速功能使用 [LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest) 在 `GitHub Actions` 环境下实现，所以美国节点较多，不能很好代表国内网络环境下节点可用性，目前正在解决这一问题。
 
@@ -19,13 +19,13 @@
 ## 使用方法
 将以下订阅链接导入相应客户端即可。链接中大部分为 SS 协议节点，少量 Vmess, Trojan ,SSR 协议节点，建议选择协议支持完整的客户端。
 
-- [多协议Base64编码](https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity)
-- [Clash](https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/Eternity.yaml)
+- [多协议Base64编码](https://raw.githubusercontent.com/1904240502/node/master/base)
+- [Clash](https://raw.githubusercontent.com/1904240502/node/master/clash.yaml)
 
 另有国内加速链接：
 
-- [多协议Base64编码](https://fastly.jsdelivr.net/gh/alanbobs999/TopFreeProxies@master/Eternity)
-- [Clash](https://fastly.jsdelivr.net/gh/alanbobs999/TopFreeProxies@master/Eternity.yaml)
+- [多协议Base64编码](https://fastly.jsdelivr.net/gh/1904240502/node@master/base)
+- [Clash](https://fastly.jsdelivr.net/gh/1904240502/node@master/clash.yaml)
 
 >`Clash`链接所使用的配置在仓库`./update/provider/`中，有相应配置文件和以国家分类的`proxy-provider`。
 >
@@ -194,17 +194,6 @@
 |                              ×                               | [ShadowsocksR-android](https://github.com/HMBSbige/ShadowsocksR-Android/releases) | SSR协议支持，安卓专用 SSR 客户端。                                                |
 |                              ×                               |     [V2rayNG](https://github.com/2dust/v2rayNG/releases)     | SS, Trojan, Vmess, VLESS协议支持，v2ray 内核。                           |
 
-## 机场推荐
-免费节点失效太快，推荐一些性价比高的机场应急使用。
-- [魔戒.net](https://www.mojie.cyou/#/register?code=sAbl0qtT)
-  - 按量计费机场, 1¥10G, 10¥130G
-  - 所有套餐均是一样的节点与一样的服务，所有套餐流量永不过期，用完为止，不限制客户端数量，最高可提供 2Gbps 峰值
-- [大迅云](https://daxun.club/#/register?code=JPmAFPav)
-  - 最低月付 5¥50G, 12¥200G, 购买 12¥ 及以上套餐免费领取奈飞 + 迪士尼 Plus 共享号
-  - 原生IP负载均衡，流媒体解锁晚高峰油管秒开，主打性价比，有试用
-- [阿伟云](https://awcloud.cc/#/register?code=8C18uZwl)
-  - 最低月付 1¥ 起, 9.99¥100G
-  - 无带宽速率限制，有流媒体解锁，香港 BGP 中继线路
 
 ## 仓库声明
 订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
