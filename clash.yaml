@@ -5,38 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_AzadNet.t.me_115, server: 223.19.177.145, port: 21052, type: vmess, uuid: b1d6376f-1dfe-44d2-8ee4-cbf28cb01087, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇰🇷 韩国【付费推荐：https//v1.mk/vip】130, server: 43.200.244.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_AzadNet.t.me_117, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇭🇰 Hong Kong 17 TG@nodpai, server: udhk2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: tls.amazonwebservicess.com, skip-cert-verify: true}
   - {name: KR_AzadNet.t.me_90, server: 144.24.72.125, port: 39867, type: vmess, uuid: 1c1d94dc-e79b-4a24-dc9f-7afa92539a80, alterId: 0, cipher: auto, tls: false}
-  - {name: JP_AzadNet.t.me_135, server: 85.208.108.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: JP_AzadNet.t.me_134, server: 85.208.108.59, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: HK_AzadNet.t.me_146, server: 43.154.34.49, port: 23183, type: vmess, uuid: b402a4af-285a-463e-c3a7-53f91efdec78, alterId: 0, cipher: auto, tls: false}
-  - {name: SG_AzadNet.t.me_109, server: ak1656.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4Hub2f9JyhECyAq2Opm0NS}
-  - {name: JP_AzadNet.t.me_125, server: ak1642.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 1663, type: ss, cipher: chacha20-ietf-poly1305, password: Xs9ORT4j65b8HreZrg0p}
-  - {name: JP_AzadNet.t.me_129, server: 85.208.108.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
-  - {name: JP_AzadNet.t.me_137, server: 85.208.108.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇸🇬 Singapore 07 TG@nodpai, server: 139.99.88.161, port: 10000, type: vmess, uuid: 3599fbc0-c1cd-11ed-815a-c36f2435909e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai, server: stw9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
-  - {name: SG_AzadNet.t.me_130, server: 81.90.189.41, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_AzadNet.t.me_140, server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: JP_AzadNet.t.me_139, server: 85.208.108.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: JP_AzadNet.t.me_142, server: 85.208.108.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇸🇬 Singapore 07 TG@nodpai, server: 139.99.88.161, port: 10000, type: vmess, uuid: 3599fbc0-c1cd-11ed-815a-c36f2435909e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
   - {name: JP_AzadNet.t.me_130, server: 85.208.108.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: JP_AzadNet.t.me_132, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: SG_AzadNet.t.me_108, server: 139.99.91.95, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
-  - {name: KR_AzadNet.t.me_5, server: 144.24.72.126, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true}
-  - {name: KR_AzadNet.t.me_7, server: 138.2.113.84, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
-  - {name: SG_AzadNet.t.me_120, server: 217.197.161.138, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 TW台湾(youtube阿伟科技), server: kcdtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: e95194b4-bc7e-497f-876a-686e127e0b65, sni: data.amazonwebservicess.com, skip-cert-verify: false}
-  - {name: SG_AzadNet.t.me_110, server: 217.197.161.136, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
-  - {name: SG_AzadNet.t.me_68, server: sg-v.sshmax.xyz, port: 80, type: vmess, uuid: 0baaf014-af04-4028-be53-f5c75bb276ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sg-v.sshmax.xyz}}}
-  - {name: 🇸🇬 新加坡  01（二区）, server: s-sg01.aikun.online, port: 10000, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-sg01.aikun.online, skip-cert-verify: true}
-  - {name: HK_AzadNet.t.me_10, server: 43.154.18.63, port: 42541, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: $aws-hk02.xiaohouzi.club, skip-cert-verify: true}
-  - {name: JP_AzadNet.t.me_123, server: suzhihan.eu.org, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /roewesu, headers: {Host: suzhihan.eu.org}}}
-  - {name: HK_AzadNet.t.me_49, server: mir.mygugubird.xyz, port: 443, type: vmess, uuid: cad2f27c-fa48-4d1a-e060-e55966f3b606, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mir.mygugubird.xyz}}}
-  - {name: "🇸🇬 _SG_新加坡\r_1", server: 13.215.191.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SG_127, server: 139.162.41.174, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: HK_AzadNet.t.me_146, server: 43.154.34.49, port: 23183, type: vmess, uuid: b402a4af-285a-463e-c3a7-53f91efdec78, alterId: 0, cipher: auto, tls: false}
   - {name: SG_AzadNet.t.me_9, server: 20.205.214.65, port: 55053, type: vmess, uuid: b8ec1401-e5c1-4299-b315-9694cca0c2f8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: JP_AzadNet.t.me_137, server: 85.208.108.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: JP_AzadNet.t.me_140, server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: JP_AzadNet.t.me_129, server: 85.208.108.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai, server: stw10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: JP_AzadNet.t.me_125, server: ak1642.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 1663, type: ss, cipher: chacha20-ietf-poly1305, password: Xs9ORT4j65b8HreZrg0p}
+  - {name: SG_AzadNet.t.me_130, server: 81.90.189.41, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: SG_AzadNet.t.me_109, server: ak1656.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4Hub2f9JyhECyAq2Opm0NS}
+  - {name: JP_AzadNet.t.me_132, server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai, server: stw9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: KR_AzadNet.t.me_7, server: 138.2.113.84, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true}
+  - {name: KR_AzadNet.t.me_5, server: 144.24.72.126, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai, server: scloudtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾【付费推荐：https//v1.mk/vip】51, server: kcdtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: e95194b4-bc7e-497f-876a-686e127e0b65, sni: data.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】126, server: 13.229.201.5, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本【付费推荐：https//v1.mk/vip】57, server: moslb-x-aws-jptk.softether.net, port: 25565, type: ss, cipher: aes-256-gcm, password: fuck_gfw}
+  - {name: HK_AzadNet.t.me_21, server: petal.ga, port: 443, type: vmess, uuid: b744f5cc-eab2-d2cd-f477-76646d17987f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /petalvws, headers: {Host: petal.ga}}}
+  - {name: HK_AzadNet.t.me_8, server: 154.3.32.164, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: $sky998dmit3.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5, server: hinet1261.gfwisbest.xyz, port: 224, type: vmess, uuid: 2285133e-b9ba-3fb5-a246-9c7ddcc2cd7a, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_AzadNet.t.me_49, server: mir.mygugubird.xyz, port: 443, type: vmess, uuid: cad2f27c-fa48-4d1a-e060-e55966f3b606, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: mir.mygugubird.xyz}}}
+  - {name: 🇸🇬 新加坡  01（二区）, server: s-sg01.aikun.online, port: 10000, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-sg01.aikun.online, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 02（二区）, server: s-2jp02.aikun.online, port: 20001, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-2jp02.aikun.online, skip-cert-verify: true}
   - {name: HK_AzadNet.t.me_1, server: 43.154.172.79, port: 10102, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, skip-cert-verify: true}
   - {name: HK_AzadNet.t.me_2, server: 43.154.55.153, port: 10102, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: azhk095.xiaohouzi.club, skip-cert-verify: true}
   - {name: HK_AzadNet.t.me_3, server: 103.135.103.132, port: 443, type: trojan, password: 265f092f-418b-30c9-a479-4800fd44dd19mielink, sni: $paydiu.com, skip-cert-verify: true}
@@ -44,59 +45,57 @@ proxies:
   - {name: HK_AzadNet.t.me_5, server: 125.59.27.66, port: 443, type: trojan, password: 265f092f-418b-30c9-a479-4800fd44dd19mielink, sni: $paydiu.com, skip-cert-verify: true}
   - {name: HK_AzadNet.t.me_6, server: 58.177.149.6, port: 443, type: trojan, password: 265f092f-418b-30c9-a479-4800fd44dd19mielink, sni: $paydiu.com, skip-cert-verify: true}
   - {name: HK_AzadNet.t.me_7, server: 103.164.81.58, port: 5201, type: trojan, password: 5dc438d2-efb7-41dc-9042-aaed31495e2f, sni: hk3.biubiufast.quest, skip-cert-verify: true}
-  - {name: HK_AzadNet.t.me_8, server: 154.3.32.164, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: $sky998dmit3.xyz, skip-cert-verify: true}
-  - {name: "🇰🇷 _KR_韩国\r_1", server: 3.36.85.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: SG_AzadNet.t.me_68, server: sg-v.sshmax.xyz, port: 80, type: vmess, uuid: 0baaf014-af04-4028-be53-f5c75bb276ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sg-v.sshmax.xyz}}}
+  - {name: HK_AzadNet.t.me_10, server: 43.154.18.63, port: 42541, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: $aws-hk02.xiaohouzi.club, skip-cert-verify: true}
   - {name: HK_AzadNet.t.me_11, server: 43.154.210.104, port: 19357, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: $azhk003.xiaohouzi.club, skip-cert-verify: true}
   - {name: HK_AzadNet.t.me_12, server: 43.154.222.48, port: 17115, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: $azhk097.xiaohouzi.club, skip-cert-verify: true}
-  - {name: HK_AzadNet.t.me_13, server: 43.155.103.211, port: 19359, type: trojan, password: a3278882-3614-39cf-a3d6-faefa8c910ab, sni: $hk-azure03.xiaohouzi.club, skip-cert-verify: true}
+  - {name: 🇺🇸 美国【付费推荐：https//v1.mk/vip】29, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca-nnc.ilovescp.com}}}
+  - {name: 🇺🇸 美国 098, server: qus6t.bcloudv.cyou, port: 20022, type: trojan, password: ca48f855-42ef-3acc-b16c-9c674bc9fc67, sni: qus6t.bcloudv.cyou, skip-cert-verify: true}
   - {name: 🇺🇸 美国_03153279, server: beacon.liveon.id, port: 443, type: vmess, uuid: 3580bde6-ce2c-401c-866e-d6eb2a343546, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: sg2-ctb.v2rayserv.com}}}
-  - {name: 🇺🇸 _US_美国_5 3, server: no.aries.ovh, port: 80, type: vmess, uuid: 88e5a793-3875-4c63-940c-bd6ea11075cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}}
-  - {name: US_AzadNet.t.me_826, server: 38.75.137.9, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_AzadNet.t.me_797, server: 167.88.63.44, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_AzadNet.t.me_829, server: 38.91.107.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_AzadNet.t.me_1230, server: 38.91.107.216, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: US_AzadNet.t.me_827, server: 38.91.101.159, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: US_AzadNet.t.me_926, server: 38.143.66.64, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN, server: 188.114.99.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: US_AzadNet.t.me_797, server: 167.88.63.44, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: US_AzadNet.t.me_822, server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_AzadNet.t.me_116, server: 134.195.196.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: CA_AzadNet.t.me_128, server: 134.195.196.85, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: US_AzadNet.t.me_1088, server: 38.91.102.74, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: US_AzadNet.t.me_804, server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: US_AzadNet.t.me_1157, server: 38.91.102.123, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: US_AzadNet.t.me_798, server: 167.88.63.59, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_AzadNet.t.me_205, server: 158.51.121.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN, server: 203.30.188.189, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}}
-  - {name: US_AzadNet.t.me_664 2, server: 4bb4ced4.8200860.xyz, port: 2096, type: vmess, uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /index, headers: {Host: 4bb4ced4.8200860.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN, server: 203.30.189.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN, server: 185.162.228.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
-  - {name: github.com/freefq - 欧盟  16, server: 45.80.111.53, port: 443, type: vmess, uuid: 0b873cff-11ab-4716-c41a-04f886135091, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /suzhihan.eu.org/roewesu, headers: {Host: 200.aquabazi.site}}}
-  - {name: AU_AzadNet.t.me_10, server: fullaccesstoaustraliannet.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstoaustraliannet.azurewebsites.net}}}
-  - {name: RU_AzadNet.t.me_7, server: 91.193.181.192, port: 8090, type: vmess, uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: FI_AzadNet.t.me_17, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: SE_AzadNet.t.me_14, server: 13.49.241.14, port: 27092, type: ss, cipher: chacha20-ietf-poly1305, password: pydQILh06AvJ}
-  - {name: DE_AzadNet.t.me_94, server: 193.108.118.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: DE_AzadNet.t.me_93, server: 193.108.117.75, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: FR_AzadNet.t.me_75, server: 51.178.87.37, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai 2, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
-  - {name: 54.169.160.39801, server: 54.169.160.39, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ}
-  - {name: 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai 2, server: stw9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
-  - {name: 🇸🇬 Singapore 07 TG@nodpai 2, server: 139.99.88.161, port: 10000, type: vmess, uuid: 3599fbc0-c1cd-11ed-815a-c36f2435909e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN 2, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
   - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN, server: 66.235.200.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN 2, server: 23.227.38.40, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
-  - {name: DE_AzadNet.t.me_111, server: 193.108.118.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: GB_AzadNet.t.me_86, server: 212.38.189.174, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇳🇱 荷兰_0315071, server: 188.114.96.46, port: 443, type: vmess, uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /huhublog, headers: {Host: zhuyong.hucloud-dns.xyz}}}
-  - {name: FR_AzadNet.t.me_97, server: 62.210.222.195, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: FR_AzadNet.t.me_123, server: 172.99.189.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: GB_AzadNet.t.me_77, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}}
+  - {name: US_AzadNet.t.me_829, server: 38.91.107.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: US_AzadNet.t.me_804, server: 167.88.63.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CA_AzadNet.t.me_116, server: 134.195.196.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CA_AzadNet.t.me_205, server: 158.51.121.154, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国【付费推荐：https//v1.mk/vip】27, server: 77.v2ray1.xyz, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN, server: 203.24.108.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: US_AzadNet.t.me_826, server: 38.75.137.9, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CA_AzadNet.t.me_128, server: 134.195.196.85, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: US_AzadNet.t.me_1230, server: 38.91.107.216, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: US_AzadNet.t.me_798, server: 167.88.63.59, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN, server: 23.227.38.39, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}}
+  - {name: US_AzadNet.t.me_1088, server: 38.91.102.74, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: FR_AzadNet.t.me_51, server: 188.165.170.83, port: 80, type: vmess, uuid: 860a862a-2798-4037-8513-b060e310e7fc, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: "@SSRSUB-V21-付费推荐suo.yt/ssrsub", server: no.aries.ovh, port: 80, type: vmess, uuid: 88e5a793-3875-4c63-940c-bd6ea11075cb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v10.asuka.buzz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-6CDN, server: 203.30.188.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  21, server: 185.231.204.143, port: 80, type: vmess, uuid: 39895690-ba4b-4f26-b1d3-fb18a954dfee, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇭🇰 Hong Kong 17 TG@nodpai 2, server: udhk2-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: tls.amazonwebservicess.com, skip-cert-verify: true}
+  - {name: 13.125.198.225443, server: 13.125.198.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: NL_AzadNet.t.me_98, server: 172.99.188.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: DE_AzadNet.t.me_95, server: 193.108.118.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: DE_AzadNet.t.me_94, server: 193.108.118.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: FR_AzadNet.t.me_75, server: 51.178.87.37, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: DE_AzadNet.t.me_157, server: 217.182.198.219, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: FR_AzadNet.t.me_94, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: PL_AzadNet.t.me_7, server: 51.77.53.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 Singapore 07 TG@nodpai 2, server: 139.99.88.161, port: 10000, type: vmess, uuid: 3599fbc0-c1cd-11ed-815a-c36f2435909e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: DE_AzadNet.t.me_93, server: 193.108.117.75, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122, server: de-v.sshmax.xyz, port: 80, type: vmess, uuid: 5668ff97-631f-4602-a13f-b56552c67abe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de-v.sshmax.xyz}}}
+  - {name: CN_AzadNet.t.me_8, server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: true}
+  - {name: 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai 2, server: stw10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: data.amazonwebservicess.com, skip-cert-verify: false}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶7, server: 203.30.191.4, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /AUIKN8AU, headers: {Host: oplg1.cfcdn2.xyz}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN, server: 203.24.108.9, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: clash1.ssr-free2.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
+  - {name: 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN, server: 190.93.246.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: 77.v2ray1.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,38 +111,39 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - HK_AzadNet.t.me_115
+      - 🇰🇷 韩国【付费推荐：https//v1.mk/vip】130
+      - JP_AzadNet.t.me_117
+      - 🇭🇰 Hong Kong 17 TG@nodpai
       - KR_AzadNet.t.me_90
-      - JP_AzadNet.t.me_135
-      - JP_AzadNet.t.me_134
-      - HK_AzadNet.t.me_146
-      - SG_AzadNet.t.me_109
-      - JP_AzadNet.t.me_125
-      - JP_AzadNet.t.me_129
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
-      - JP_AzadNet.t.me_137
-      - 🇸🇬 Singapore 07 TG@nodpai
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
-      - SG_AzadNet.t.me_130
-      - JP_AzadNet.t.me_140
       - JP_AzadNet.t.me_139
+      - JP_AzadNet.t.me_142
+      - 🇸🇬 Singapore 07 TG@nodpai
       - JP_AzadNet.t.me_130
-      - JP_AzadNet.t.me_132
-      - SG_AzadNet.t.me_108
-      - KR_AzadNet.t.me_5
-      - KR_AzadNet.t.me_7
-      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
-      - SG_AzadNet.t.me_120
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - SG_AzadNet.t.me_110
-      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
-      - SG_AzadNet.t.me_68
-      - 🇸🇬 新加坡  01（二区）
-      - HK_AzadNet.t.me_10
-      - JP_AzadNet.t.me_123
-      - HK_AzadNet.t.me_49
-      - "🇸🇬 _SG_新加坡\r_1"
+      - SG_127
+      - HK_AzadNet.t.me_146
       - SG_AzadNet.t.me_9
+      - JP_AzadNet.t.me_137
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
+      - JP_AzadNet.t.me_140
+      - JP_AzadNet.t.me_129
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai
+      - JP_AzadNet.t.me_125
+      - SG_AzadNet.t.me_130
+      - SG_AzadNet.t.me_109
+      - JP_AzadNet.t.me_132
+      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
+      - KR_AzadNet.t.me_7
+      - KR_AzadNet.t.me_5
+      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
+      - 🇨🇳 台湾【付费推荐：https//v1.mk/vip】51
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】126
+      - 🇯🇵 日本【付费推荐：https//v1.mk/vip】57
+      - HK_AzadNet.t.me_21
+      - HK_AzadNet.t.me_8
+      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
+      - HK_AzadNet.t.me_49
+      - 🇸🇬 新加坡  01（二区）
+      - 🇯🇵 日本 02（二区）
       - HK_AzadNet.t.me_1
       - HK_AzadNet.t.me_2
       - HK_AzadNet.t.me_3
@@ -151,59 +151,57 @@ proxy-groups:
       - HK_AzadNet.t.me_5
       - HK_AzadNet.t.me_6
       - HK_AzadNet.t.me_7
-      - HK_AzadNet.t.me_8
-      - "🇰🇷 _KR_韩国\r_1"
+      - SG_AzadNet.t.me_68
+      - HK_AzadNet.t.me_10
       - HK_AzadNet.t.me_11
       - HK_AzadNet.t.me_12
-      - HK_AzadNet.t.me_13
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】29
+      - 🇺🇸 美国 098
       - 🇺🇸 美国_03153279
-      - 🇺🇸 _US_美国_5 3
-      - US_AzadNet.t.me_826
-      - US_AzadNet.t.me_797
-      - US_AzadNet.t.me_829
-      - US_AzadNet.t.me_1230
       - US_AzadNet.t.me_827
-      - US_AzadNet.t.me_926
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - US_AzadNet.t.me_797
       - US_AzadNet.t.me_822
-      - CA_AzadNet.t.me_116
-      - CA_AzadNet.t.me_128
-      - US_AzadNet.t.me_1088
-      - US_AzadNet.t.me_804
       - US_AzadNet.t.me_1157
-      - US_AzadNet.t.me_798
-      - CA_AzadNet.t.me_205
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - US_AzadNet.t.me_664 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - github.com/freefq - 欧盟  16
-      - AU_AzadNet.t.me_10
-      - RU_AzadNet.t.me_7
-      - FI_AzadNet.t.me_17
-      - SE_AzadNet.t.me_14
-      - DE_AzadNet.t.me_94
-      - DE_AzadNet.t.me_93
-      - FR_AzadNet.t.me_75
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai 2
-      - 54.169.160.39801
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai 2
-      - 🇸🇬 Singapore 07 TG@nodpai 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN 2
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN 2
-      - DE_AzadNet.t.me_111
-      - GB_AzadNet.t.me_86
-      - 🇳🇱 荷兰_0315071
-      - FR_AzadNet.t.me_97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - FR_AzadNet.t.me_123
-      - GB_AzadNet.t.me_77
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - US_AzadNet.t.me_829
+      - US_AzadNet.t.me_804
+      - CA_AzadNet.t.me_116
+      - CA_AzadNet.t.me_205
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】27
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - US_AzadNet.t.me_826
+      - CA_AzadNet.t.me_128
+      - US_AzadNet.t.me_1230
+      - US_AzadNet.t.me_798
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - US_AzadNet.t.me_1088
+      - FR_AzadNet.t.me_51
+      - "@SSRSUB-V21-付费推荐suo.yt/ssrsub"
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-6CDN
+      - 🇷🇺 github.com/freefq - 俄罗斯  21
+      - 🇭🇰 Hong Kong 17 TG@nodpai 2
+      - 13.125.198.225443
+      - NL_AzadNet.t.me_98
+      - DE_AzadNet.t.me_95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - DE_AzadNet.t.me_94
+      - FR_AzadNet.t.me_75
+      - DE_AzadNet.t.me_157
+      - FR_AzadNet.t.me_94
+      - PL_AzadNet.t.me_7
+      - 🇸🇬 Singapore 07 TG@nodpai 2
+      - DE_AzadNet.t.me_93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - CN_AzadNet.t.me_8
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶7
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -254,38 +252,39 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - HK_AzadNet.t.me_115
+      - 🇰🇷 韩国【付费推荐：https//v1.mk/vip】130
+      - JP_AzadNet.t.me_117
+      - 🇭🇰 Hong Kong 17 TG@nodpai
       - KR_AzadNet.t.me_90
-      - JP_AzadNet.t.me_135
-      - JP_AzadNet.t.me_134
-      - HK_AzadNet.t.me_146
-      - SG_AzadNet.t.me_109
-      - JP_AzadNet.t.me_125
-      - JP_AzadNet.t.me_129
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
-      - JP_AzadNet.t.me_137
-      - 🇸🇬 Singapore 07 TG@nodpai
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
-      - SG_AzadNet.t.me_130
-      - JP_AzadNet.t.me_140
       - JP_AzadNet.t.me_139
+      - JP_AzadNet.t.me_142
+      - 🇸🇬 Singapore 07 TG@nodpai
       - JP_AzadNet.t.me_130
-      - JP_AzadNet.t.me_132
-      - SG_AzadNet.t.me_108
-      - KR_AzadNet.t.me_5
-      - KR_AzadNet.t.me_7
-      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
-      - SG_AzadNet.t.me_120
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - SG_AzadNet.t.me_110
-      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
-      - SG_AzadNet.t.me_68
-      - 🇸🇬 新加坡  01（二区）
-      - HK_AzadNet.t.me_10
-      - JP_AzadNet.t.me_123
-      - HK_AzadNet.t.me_49
-      - "🇸🇬 _SG_新加坡\r_1"
+      - SG_127
+      - HK_AzadNet.t.me_146
       - SG_AzadNet.t.me_9
+      - JP_AzadNet.t.me_137
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
+      - JP_AzadNet.t.me_140
+      - JP_AzadNet.t.me_129
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai
+      - JP_AzadNet.t.me_125
+      - SG_AzadNet.t.me_130
+      - SG_AzadNet.t.me_109
+      - JP_AzadNet.t.me_132
+      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
+      - KR_AzadNet.t.me_7
+      - KR_AzadNet.t.me_5
+      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
+      - 🇨🇳 台湾【付费推荐：https//v1.mk/vip】51
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】126
+      - 🇯🇵 日本【付费推荐：https//v1.mk/vip】57
+      - HK_AzadNet.t.me_21
+      - HK_AzadNet.t.me_8
+      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
+      - HK_AzadNet.t.me_49
+      - 🇸🇬 新加坡  01（二区）
+      - 🇯🇵 日本 02（二区）
       - HK_AzadNet.t.me_1
       - HK_AzadNet.t.me_2
       - HK_AzadNet.t.me_3
@@ -293,97 +292,96 @@ proxy-groups:
       - HK_AzadNet.t.me_5
       - HK_AzadNet.t.me_6
       - HK_AzadNet.t.me_7
-      - HK_AzadNet.t.me_8
-      - "🇰🇷 _KR_韩国\r_1"
+      - SG_AzadNet.t.me_68
+      - HK_AzadNet.t.me_10
       - HK_AzadNet.t.me_11
       - HK_AzadNet.t.me_12
-      - HK_AzadNet.t.me_13
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】29
+      - 🇺🇸 美国 098
       - 🇺🇸 美国_03153279
-      - 🇺🇸 _US_美国_5 3
-      - US_AzadNet.t.me_826
-      - US_AzadNet.t.me_797
-      - US_AzadNet.t.me_829
-      - US_AzadNet.t.me_1230
       - US_AzadNet.t.me_827
-      - US_AzadNet.t.me_926
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - US_AzadNet.t.me_797
       - US_AzadNet.t.me_822
-      - CA_AzadNet.t.me_116
-      - CA_AzadNet.t.me_128
-      - US_AzadNet.t.me_1088
-      - US_AzadNet.t.me_804
       - US_AzadNet.t.me_1157
-      - US_AzadNet.t.me_798
-      - CA_AzadNet.t.me_205
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - US_AzadNet.t.me_664 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - github.com/freefq - 欧盟  16
-      - AU_AzadNet.t.me_10
-      - RU_AzadNet.t.me_7
-      - FI_AzadNet.t.me_17
-      - SE_AzadNet.t.me_14
-      - DE_AzadNet.t.me_94
-      - DE_AzadNet.t.me_93
-      - FR_AzadNet.t.me_75
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai 2
-      - 54.169.160.39801
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai 2
-      - 🇸🇬 Singapore 07 TG@nodpai 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN 2
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN 2
-      - DE_AzadNet.t.me_111
-      - GB_AzadNet.t.me_86
-      - 🇳🇱 荷兰_0315071
-      - FR_AzadNet.t.me_97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - FR_AzadNet.t.me_123
-      - GB_AzadNet.t.me_77
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - US_AzadNet.t.me_829
+      - US_AzadNet.t.me_804
+      - CA_AzadNet.t.me_116
+      - CA_AzadNet.t.me_205
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】27
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - US_AzadNet.t.me_826
+      - CA_AzadNet.t.me_128
+      - US_AzadNet.t.me_1230
+      - US_AzadNet.t.me_798
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - US_AzadNet.t.me_1088
+      - FR_AzadNet.t.me_51
+      - "@SSRSUB-V21-付费推荐suo.yt/ssrsub"
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-6CDN
+      - 🇷🇺 github.com/freefq - 俄罗斯  21
+      - 🇭🇰 Hong Kong 17 TG@nodpai 2
+      - 13.125.198.225443
+      - NL_AzadNet.t.me_98
+      - DE_AzadNet.t.me_95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - DE_AzadNet.t.me_94
+      - FR_AzadNet.t.me_75
+      - DE_AzadNet.t.me_157
+      - FR_AzadNet.t.me_94
+      - PL_AzadNet.t.me_7
+      - 🇸🇬 Singapore 07 TG@nodpai 2
+      - DE_AzadNet.t.me_93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - CN_AzadNet.t.me_8
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶7
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK_AzadNet.t.me_115
+      - 🇰🇷 韩国【付费推荐：https//v1.mk/vip】130
+      - JP_AzadNet.t.me_117
+      - 🇭🇰 Hong Kong 17 TG@nodpai
       - KR_AzadNet.t.me_90
-      - JP_AzadNet.t.me_135
-      - JP_AzadNet.t.me_134
-      - HK_AzadNet.t.me_146
-      - SG_AzadNet.t.me_109
-      - JP_AzadNet.t.me_125
-      - JP_AzadNet.t.me_129
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
-      - JP_AzadNet.t.me_137
-      - 🇸🇬 Singapore 07 TG@nodpai
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
-      - SG_AzadNet.t.me_130
-      - JP_AzadNet.t.me_140
       - JP_AzadNet.t.me_139
+      - JP_AzadNet.t.me_142
+      - 🇸🇬 Singapore 07 TG@nodpai
       - JP_AzadNet.t.me_130
-      - JP_AzadNet.t.me_132
-      - SG_AzadNet.t.me_108
-      - KR_AzadNet.t.me_5
-      - KR_AzadNet.t.me_7
-      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
-      - SG_AzadNet.t.me_120
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - SG_AzadNet.t.me_110
-      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
-      - SG_AzadNet.t.me_68
-      - 🇸🇬 新加坡  01（二区）
-      - HK_AzadNet.t.me_10
-      - JP_AzadNet.t.me_123
-      - HK_AzadNet.t.me_49
-      - "🇸🇬 _SG_新加坡\r_1"
+      - SG_127
+      - HK_AzadNet.t.me_146
       - SG_AzadNet.t.me_9
+      - JP_AzadNet.t.me_137
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
+      - JP_AzadNet.t.me_140
+      - JP_AzadNet.t.me_129
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai
+      - JP_AzadNet.t.me_125
+      - SG_AzadNet.t.me_130
+      - SG_AzadNet.t.me_109
+      - JP_AzadNet.t.me_132
+      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
+      - KR_AzadNet.t.me_7
+      - KR_AzadNet.t.me_5
+      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
+      - 🇨🇳 台湾【付费推荐：https//v1.mk/vip】51
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】126
+      - 🇯🇵 日本【付费推荐：https//v1.mk/vip】57
+      - HK_AzadNet.t.me_21
+      - HK_AzadNet.t.me_8
+      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
+      - HK_AzadNet.t.me_49
+      - 🇸🇬 新加坡  01（二区）
+      - 🇯🇵 日本 02（二区）
       - HK_AzadNet.t.me_1
       - HK_AzadNet.t.me_2
       - HK_AzadNet.t.me_3
@@ -391,131 +389,130 @@ proxy-groups:
       - HK_AzadNet.t.me_5
       - HK_AzadNet.t.me_6
       - HK_AzadNet.t.me_7
-      - HK_AzadNet.t.me_8
-      - "🇰🇷 _KR_韩国\r_1"
+      - SG_AzadNet.t.me_68
+      - HK_AzadNet.t.me_10
       - HK_AzadNet.t.me_11
       - HK_AzadNet.t.me_12
-      - HK_AzadNet.t.me_13
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】29
+      - 🇺🇸 美国 098
       - 🇺🇸 美国_03153279
-      - 🇺🇸 _US_美国_5 3
-      - US_AzadNet.t.me_826
-      - US_AzadNet.t.me_797
-      - US_AzadNet.t.me_829
-      - US_AzadNet.t.me_1230
       - US_AzadNet.t.me_827
-      - US_AzadNet.t.me_926
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - US_AzadNet.t.me_797
       - US_AzadNet.t.me_822
-      - CA_AzadNet.t.me_116
-      - CA_AzadNet.t.me_128
-      - US_AzadNet.t.me_1088
-      - US_AzadNet.t.me_804
       - US_AzadNet.t.me_1157
-      - US_AzadNet.t.me_798
-      - CA_AzadNet.t.me_205
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - US_AzadNet.t.me_664 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - github.com/freefq - 欧盟  16
-      - AU_AzadNet.t.me_10
-      - RU_AzadNet.t.me_7
-      - FI_AzadNet.t.me_17
-      - SE_AzadNet.t.me_14
-      - DE_AzadNet.t.me_94
-      - DE_AzadNet.t.me_93
-      - FR_AzadNet.t.me_75
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai 2
-      - 54.169.160.39801
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai 2
-      - 🇸🇬 Singapore 07 TG@nodpai 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN 2
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN 2
-      - DE_AzadNet.t.me_111
-      - GB_AzadNet.t.me_86
-      - 🇳🇱 荷兰_0315071
-      - FR_AzadNet.t.me_97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - FR_AzadNet.t.me_123
-      - GB_AzadNet.t.me_77
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - US_AzadNet.t.me_829
+      - US_AzadNet.t.me_804
+      - CA_AzadNet.t.me_116
+      - CA_AzadNet.t.me_205
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】27
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - US_AzadNet.t.me_826
+      - CA_AzadNet.t.me_128
+      - US_AzadNet.t.me_1230
+      - US_AzadNet.t.me_798
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - US_AzadNet.t.me_1088
+      - FR_AzadNet.t.me_51
+      - "@SSRSUB-V21-付费推荐suo.yt/ssrsub"
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-6CDN
+      - 🇷🇺 github.com/freefq - 俄罗斯  21
+      - 🇭🇰 Hong Kong 17 TG@nodpai 2
+      - 13.125.198.225443
+      - NL_AzadNet.t.me_98
+      - DE_AzadNet.t.me_95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - DE_AzadNet.t.me_94
+      - FR_AzadNet.t.me_75
+      - DE_AzadNet.t.me_157
+      - FR_AzadNet.t.me_94
+      - PL_AzadNet.t.me_7
+      - 🇸🇬 Singapore 07 TG@nodpai 2
+      - DE_AzadNet.t.me_93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - CN_AzadNet.t.me_8
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶7
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】29
+      - 🇺🇸 美国 098
       - 🇺🇸 美国_03153279
-      - 🇺🇸 _US_美国_5 3
-      - US_AzadNet.t.me_826
-      - US_AzadNet.t.me_797
-      - US_AzadNet.t.me_829
-      - US_AzadNet.t.me_1230
       - US_AzadNet.t.me_827
-      - US_AzadNet.t.me_926
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - US_AzadNet.t.me_797
       - US_AzadNet.t.me_822
-      - CA_AzadNet.t.me_116
-      - CA_AzadNet.t.me_128
-      - US_AzadNet.t.me_1088
-      - US_AzadNet.t.me_804
       - US_AzadNet.t.me_1157
-      - US_AzadNet.t.me_798
-      - CA_AzadNet.t.me_205
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - US_AzadNet.t.me_664 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN 2
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - US_AzadNet.t.me_829
+      - US_AzadNet.t.me_804
+      - CA_AzadNet.t.me_116
+      - CA_AzadNet.t.me_205
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】27
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - US_AzadNet.t.me_826
+      - CA_AzadNet.t.me_128
+      - US_AzadNet.t.me_1230
+      - US_AzadNet.t.me_798
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - US_AzadNet.t.me_1088
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-6CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶7
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - HK_AzadNet.t.me_115
+      - 🇰🇷 韩国【付费推荐：https//v1.mk/vip】130
+      - JP_AzadNet.t.me_117
+      - 🇭🇰 Hong Kong 17 TG@nodpai
       - KR_AzadNet.t.me_90
-      - JP_AzadNet.t.me_135
-      - JP_AzadNet.t.me_134
-      - HK_AzadNet.t.me_146
-      - SG_AzadNet.t.me_109
-      - JP_AzadNet.t.me_125
-      - JP_AzadNet.t.me_129
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
-      - JP_AzadNet.t.me_137
-      - 🇸🇬 Singapore 07 TG@nodpai
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
-      - SG_AzadNet.t.me_130
-      - JP_AzadNet.t.me_140
       - JP_AzadNet.t.me_139
+      - JP_AzadNet.t.me_142
+      - 🇸🇬 Singapore 07 TG@nodpai
       - JP_AzadNet.t.me_130
-      - JP_AzadNet.t.me_132
-      - SG_AzadNet.t.me_108
-      - KR_AzadNet.t.me_5
-      - KR_AzadNet.t.me_7
-      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
-      - SG_AzadNet.t.me_120
-      - 🇨🇳 TW台湾(youtube阿伟科技)
-      - SG_AzadNet.t.me_110
-      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
-      - SG_AzadNet.t.me_68
-      - 🇸🇬 新加坡  01（二区）
-      - HK_AzadNet.t.me_10
-      - JP_AzadNet.t.me_123
-      - HK_AzadNet.t.me_49
-      - "🇸🇬 _SG_新加坡\r_1"
+      - SG_127
+      - HK_AzadNet.t.me_146
       - SG_AzadNet.t.me_9
+      - JP_AzadNet.t.me_137
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
+      - JP_AzadNet.t.me_140
+      - JP_AzadNet.t.me_129
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai
+      - JP_AzadNet.t.me_125
+      - SG_AzadNet.t.me_130
+      - SG_AzadNet.t.me_109
+      - JP_AzadNet.t.me_132
+      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
+      - KR_AzadNet.t.me_7
+      - KR_AzadNet.t.me_5
+      - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
+      - 🇨🇳 台湾【付费推荐：https//v1.mk/vip】51
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】126
+      - 🇯🇵 日本【付费推荐：https//v1.mk/vip】57
+      - HK_AzadNet.t.me_21
+      - HK_AzadNet.t.me_8
+      - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
+      - HK_AzadNet.t.me_49
+      - 🇸🇬 新加坡  01（二区）
+      - 🇯🇵 日本 02（二区）
       - HK_AzadNet.t.me_1
       - HK_AzadNet.t.me_2
       - HK_AzadNet.t.me_3
@@ -523,95 +520,96 @@ proxy-groups:
       - HK_AzadNet.t.me_5
       - HK_AzadNet.t.me_6
       - HK_AzadNet.t.me_7
-      - HK_AzadNet.t.me_8
-      - "🇰🇷 _KR_韩国\r_1"
+      - SG_AzadNet.t.me_68
+      - HK_AzadNet.t.me_10
       - HK_AzadNet.t.me_11
       - HK_AzadNet.t.me_12
-      - HK_AzadNet.t.me_13
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai 2
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai 2
+      - 🇭🇰 Hong Kong 17 TG@nodpai 2
       - 🇸🇬 Singapore 07 TG@nodpai 2
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai 2
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
+      - 🇭🇰 Hong Kong 17 TG@nodpai
       - 🇸🇬 Singapore 07 TG@nodpai
+      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai
       - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
       - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - github.com/freefq - 欧盟  16
-      - AU_AzadNet.t.me_10
-      - RU_AzadNet.t.me_7
-      - FI_AzadNet.t.me_17
-      - SE_AzadNet.t.me_14
-      - DE_AzadNet.t.me_94
-      - DE_AzadNet.t.me_93
-      - FR_AzadNet.t.me_75
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai 2
-      - 54.169.160.39801
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai 2
-      - 🇸🇬 Singapore 07 TG@nodpai 2
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN 2
-      - DE_AzadNet.t.me_111
-      - GB_AzadNet.t.me_86
-      - 🇳🇱 荷兰_0315071
-      - FR_AzadNet.t.me_97
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 27
-      - FR_AzadNet.t.me_123
-      - GB_AzadNet.t.me_77
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - FR_AzadNet.t.me_51
+      - "@SSRSUB-V21-付费推荐suo.yt/ssrsub"
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-6CDN
+      - 🇷🇺 github.com/freefq - 俄罗斯  21
+      - 🇭🇰 Hong Kong 17 TG@nodpai 2
+      - 13.125.198.225443
+      - NL_AzadNet.t.me_98
+      - DE_AzadNet.t.me_95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 15
+      - DE_AzadNet.t.me_94
+      - FR_AzadNet.t.me_75
+      - DE_AzadNet.t.me_157
+      - FR_AzadNet.t.me_94
+      - PL_AzadNet.t.me_7
+      - 🇸🇬 Singapore 07 TG@nodpai 2
+      - DE_AzadNet.t.me_93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - CN_AzadNet.t.me_8
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶7
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】29
+      - 🇺🇸 美国 098
       - 🇺🇸 美国_03153279
-      - 🇺🇸 _US_美国_5 3
-      - US_AzadNet.t.me_826
-      - US_AzadNet.t.me_797
-      - US_AzadNet.t.me_829
-      - US_AzadNet.t.me_1230
       - US_AzadNet.t.me_827
-      - US_AzadNet.t.me_926
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-2CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-15CDN
+      - US_AzadNet.t.me_797
       - US_AzadNet.t.me_822
-      - US_AzadNet.t.me_1088
-      - US_AzadNet.t.me_804
       - US_AzadNet.t.me_1157
-      - US_AzadNet.t.me_798
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-6CDN
-      - US_AzadNet.t.me_664 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-5CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-9CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-4CDN 2
       - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-8CDN
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-3CDN 2
-      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN 2
+      - US_AzadNet.t.me_829
+      - US_AzadNet.t.me_804
+      - 🇺🇸 美国【付费推荐：https//v1.mk/vip】27
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-7CDN
+      - US_AzadNet.t.me_826
+      - US_AzadNet.t.me_1230
+      - US_AzadNet.t.me_798
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-3CDN
+      - US_AzadNet.t.me_1088
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶1-6CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶7
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶2-7CDN
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-13CDN 2
+      - 🇺🇸 https//github.com/Alvin9999/new-pac/wiki clash ip1 洛杉矶3-14CDN
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - HK_AzadNet.t.me_115
+      - 🇭🇰 Hong Kong 17 TG@nodpai
       - HK_AzadNet.t.me_146
-      - HK_AzadNet.t.me_10
+      - HK_AzadNet.t.me_21
+      - HK_AzadNet.t.me_8
       - HK_AzadNet.t.me_49
       - HK_AzadNet.t.me_1
       - HK_AzadNet.t.me_2
@@ -620,26 +618,24 @@ proxy-groups:
       - HK_AzadNet.t.me_5
       - HK_AzadNet.t.me_6
       - HK_AzadNet.t.me_7
-      - HK_AzadNet.t.me_8
+      - HK_AzadNet.t.me_10
       - HK_AzadNet.t.me_11
       - HK_AzadNet.t.me_12
-      - HK_AzadNet.t.me_13
+      - 🇭🇰 Hong Kong 17 TG@nodpai 2
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - SG_AzadNet.t.me_109
       - 🇸🇬 Singapore 07 TG@nodpai
-      - SG_AzadNet.t.me_130
-      - SG_AzadNet.t.me_108
-      - SG_AzadNet.t.me_120
-      - SG_AzadNet.t.me_110
-      - SG_AzadNet.t.me_68
-      - 🇸🇬 新加坡  01（二区）
-      - "🇸🇬 _SG_新加坡\r_1"
+      - SG_127
       - SG_AzadNet.t.me_9
+      - SG_AzadNet.t.me_130
+      - SG_AzadNet.t.me_109
+      - 🇸🇬 新加坡【付费推荐：https//v1.mk/vip】126
+      - 🇸🇬 新加坡  01（二区）
+      - SG_AzadNet.t.me_68
       - 🇸🇬 Singapore 07 TG@nodpai 2
   - name: 日本
     type: url-test
@@ -647,16 +643,17 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - JP_AzadNet.t.me_135
-      - JP_AzadNet.t.me_134
-      - JP_AzadNet.t.me_125
-      - JP_AzadNet.t.me_129
+      - JP_AzadNet.t.me_117
+      - JP_AzadNet.t.me_139
+      - JP_AzadNet.t.me_142
+      - JP_AzadNet.t.me_130
       - JP_AzadNet.t.me_137
       - JP_AzadNet.t.me_140
-      - JP_AzadNet.t.me_139
-      - JP_AzadNet.t.me_130
+      - JP_AzadNet.t.me_129
+      - JP_AzadNet.t.me_125
       - JP_AzadNet.t.me_132
-      - JP_AzadNet.t.me_123
+      - 🇯🇵 日本【付费推荐：https//v1.mk/vip】57
+      - 🇯🇵 日本 02（二区）
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -664,22 +661,22 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai
       - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai
       - 🇨🇳 Taiwan(ChatGPT) 02 TG@nodpai
-      - 🇨🇳 TW台湾(youtube阿伟科技)
+      - 🇨🇳 台湾【付费推荐：https//v1.mk/vip】51
       - 🇨🇳 github.com/freefq - 台湾省新北市中华电信 5
-      - 🇨🇳 Taiwan(ChatGPT) 05 TG@nodpai 2
-      - 🇨🇳 Taiwan(ChatGPT) 06 TG@nodpai 2
+      - 🇨🇳 Taiwan(ChatGPT) 08 TG@nodpai 2
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇰🇷 韩国【付费推荐：https//v1.mk/vip】130
       - KR_AzadNet.t.me_90
-      - KR_AzadNet.t.me_5
       - KR_AzadNet.t.me_7
-      - "🇰🇷 _KR_韩国\r_1"
+      - KR_AzadNet.t.me_5
 rules:
  - DOMAIN,instant.arubanetworks.com,DIRECT
  - DOMAIN,router.asus.com,DIRECT
